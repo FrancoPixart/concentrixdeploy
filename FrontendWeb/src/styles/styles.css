@@ -1,0 +1,19 @@
+.search-page {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
