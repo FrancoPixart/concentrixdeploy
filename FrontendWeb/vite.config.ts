@@ -11,5 +11,5 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
   },
-  base: '/concentrix_security/'
+  base: '/concentrixdeploy/'
 })
